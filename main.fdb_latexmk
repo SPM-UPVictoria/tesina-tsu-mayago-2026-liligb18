@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1779499217.21159 "main.bcf" "main.bbl" "main" 1779499339.65941 0
+["biber main"] 1779499217.21159 "main.bcf" "main.bbl" "main" 1779893925.85885 0
   "Referencias.bib" 1779488939 3697 41c11ceec8649109896d18f1fa5554e2 ""
-  "main.bcf" 1779499339 108421 3a1344b1160decb1fd8ca3239ada97c6 "pdflatex"
+  "main.bcf" 1779893925 108421 3a1344b1160decb1fd8ca3239ada97c6 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1779499337.01324 "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" "main.pdf" "main" 1779499339.66016 0
+["pdflatex"] 1779893922.80108 "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" "main.pdf" "main" 1779893925.8596 0
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779499196 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1779499212 31952 b9be7f7aeb647b3d82ec79495c600f0b ""
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1779499211 40136 0a34d47e39065bdd665a6a2ac6e1108f ""
@@ -269,13 +269,13 @@
   "img/diagrama_proceso.png" 1779488939 112008 806a5772e1890d210f35ca869eb7261e ""
   "img/grafico_datos1.jpg" 1779488939 61975 7786eb1e265c2a3194714d28734deb0e ""
   "img/grafico_datos2.jpg" 1779488939 38058 b7609460ad2209fe27a57c178b1daf89 ""
-  "introduccion.tex" 1779488939 7984 3a14c30ba5d982cdc7d99d073a3423e5 ""
-  "main.aux" 1779499339 7159 a72e89563b9ce77bd980be160dbfc10b "pdflatex"
+  "introduccion.tex" 1779893911 14499 257e91a74fd9b1cd4204bb0a8acc490d ""
+  "main.aux" 1779893925 7161 1fd957dd4d7da1bb4a50051b87bc532f "pdflatex"
   "main.bbl" 1779499326 13023 254ed2d9c20676f4117dd46146a22961 "biber main"
-  "main.out" 1779499339 2665 139adb47c0874df13f81adb326291ed0 "pdflatex"
-  "main.run.xml" 1779499339 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
+  "main.out" 1779893925 2665 139adb47c0874df13f81adb326291ed0 "pdflatex"
+  "main.run.xml" 1779893925 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
   "main.tex" 1779497773 14935 7c93bab13fab367da7334b90f261b645 ""
-  "main.toc" 1779499339 1611 5f2e7158aba327edacfa406bab7560c2 "pdflatex"
+  "main.toc" 1779893925 1613 b6d29af43804cc6824c045445166f708 "pdflatex"
   "metodologia.tex" 1779488939 4147 5c32bf02e6a8e1f03c41edcfecebc1da ""
   "resultados.tex" 1779488939 1095 db5af9c18ffdb5d2bd76b6af6b9ea184 ""
   (generated)
