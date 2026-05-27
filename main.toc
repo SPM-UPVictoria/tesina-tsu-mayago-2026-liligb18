@@ -2,20 +2,31 @@
 \contentsline {section}{Resumen}{\es@scroman {iii}}{Doc-Start}%
 \contentsline {section}{Abstract}{\es@scroman {iv}}{Doc-Start}%
 \contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Antecedentes}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Definición del Problema}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Objetivos}{3}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Objetivo General}{3}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Objetivos Específicos}{4}{subsubsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.4}Justificación}{4}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Alcances y Limitaciones}{4}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Alcances}{4}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Limitaciones}{4}{subsubsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.6}Ejemplos de Tablas e Inclusión de Imágenes}{5}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Inclusión de Tablas}{5}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Inclusión de Imágenes}{5}{subsubsection.1.6.2}%
-\contentsline {section}{\numberline {2}Metodología}{7}{section.2}%
-\contentsline {section}{\numberline {3}Resultados}{10}{section.3}%
-\contentsline {section}{\numberline {4}Conclusiones}{11}{section.4}%
-\contentsline {section}{Bibliografía}{12}{section.4}%
-\contentsline {section}{Anexos}{13}{section.4}%
+\contentsline {subsection}{\numberline {1.1}Objetivos}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Objetivo General}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Objetivos Específicos}{2}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Planteamiento del problema}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Antecedentes}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Antecedentes de la empresa}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Antecedentes teóricos}{6}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Email marketing}{6}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Segmentación de contactos}{6}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}Funnels de conversión}{7}{subsubsection.1.5.3}%
+\contentsline {subsubsection}{\numberline {1.5.4}Automatización de marketing}{7}{subsubsection.1.5.4}%
+\contentsline {subsubsection}{\numberline {1.5.5}Formularios digitales}{7}{subsubsection.1.5.5}%
+\contentsline {subsubsection}{\numberline {1.5.6}Shopify}{8}{subsubsection.1.5.6}%
+\contentsline {subsubsection}{\numberline {1.5.7}Brevo}{8}{subsubsection.1.5.7}%
+\contentsline {subsubsection}{\numberline {1.5.8}Integración mediante iframe}{8}{subsubsection.1.5.8}%
+\contentsline {subsubsection}{\numberline {1.5.9}Plantillas HTML/CSS para correo electrónico}{8}{subsubsection.1.5.9}%
+\contentsline {subsubsection}{\numberline {1.5.10}Métricas de email marketing}{8}{subsubsection.1.5.10}%
+\contentsline {subsection}{\numberline {1.6}Tabla comparativa}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Justificación}{10}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Alcances y Limitaciones}{11}{subsection.1.8}%
+\contentsline {subsubsection}{\numberline {1.8.1}Alcances}{11}{subsubsection.1.8.1}%
+\contentsline {subsubsection}{\numberline {1.8.2}Limitaciones}{12}{subsubsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.9}Temas tentativos para el marco teórico}{13}{subsection.1.9}%
+\contentsline {section}{\numberline {2}Metodología}{14}{section.2}%
+\contentsline {section}{\numberline {3}Resultados}{17}{section.3}%
+\contentsline {section}{\numberline {4}Conclusiones}{18}{section.4}%
+\contentsline {section}{Bibliografía}{19}{section.4}%
+\contentsline {section}{Anexos}{20}{section.4}%

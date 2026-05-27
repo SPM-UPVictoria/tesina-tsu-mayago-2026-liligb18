@@ -1,115 +1,186 @@
 \section{Introducción}
 \label{ch:introduccion}
 
-Actualmente, las organizaciones sin fines de lucro requieren herramientas digitales que les permitan fortalecer su comunicación, organizar mejor sus contactos y mantener una relación constante
-con las personas interesadas en apoyar sus causas. En este contexto, el email marketing se ha
-convertido en una estrategia relevante para establecer una comunicación directa, segmentada y
-medible con diferentes públicos, tales como donantes, voluntarios, aliados estratégicos, compradores de productos con causa y personas interesadas en recibir información sobre las actividades
-realizadas.
-El presente proyecto de estadías se desarrolla en Mejora Tu Playa A.C., una asociación civil
-sin fines de lucro dedicada a la limpieza, conservación y restauración de playas en México, así
-como a la educación ambiental en comunidades, escuelas, empresas e instituciones. La organización utiliza diversos canales digitales para difundir sus actividades, promover la participación
-ciudadana, captar donativos, ofrecer productos con causa y establecer alianzas con empresas
-socialmente responsables.
-Conforme la asociación ha incrementado sus actividades y presencia digital, también ha surgido
-la necesidad de mejorar la organización de sus contactos y profesionalizar sus procesos de comunicación. Mejora Tu Playa A.C. cuenta con una página web desarrollada en Shopify, en la cual
-se encuentran diferentes formularios orientados a captar personas interesadas en voluntariado,
-reportes de actividades, sorteos, donativos, alianzas, puntos de venta, productos con causa y
-contacto general. Sin embargo, dichos formularios requieren integrarse de manera estratégica
-a una plataforma de email marketing que permita segmentar adecuadamente la información y
-facilitar futuras automatizaciones.
-Por ello, este proyecto se enfoca en el diseño, implementación y optimización de una estrategia
-de email marketing y funnels de conversión mediante la integración de formularios de Brevo en
-Shopify, la creación de listas específicas de contactos, la segmentación de audiencias, el diseño
-de plantillas de correo electrónico en HTML/CSS y la propuesta de flujos automatizados de
-comunicación. La finalidad es que cada persona que interactúe con la asociación pueda ser
-clasificada de acuerdo con su interés y recibir mensajes más relevantes, oportunos y alineados
-con su tipo de participación.
-Desde el enfoque de la Ingeniería en Tecnologías de la Información e Innovación Digital, el
-proyecto representa una solución tecnológica aplicada a una necesidad real de comunicación institucional. La implementación de formularios, listas, automatizaciones y plantillas digitales
-permitirá mejorar la gestión de contactos, reducir procesos manuales, fortalecer la imagen profesional de la asociación y aumentar las posibilidades de conversión en campañas de donación,
-participación, afiliación, adopciones simbólicas y alianzas estratégicas.
+Actualmente, las organizaciones sin fines de lucro requieren herramientas digitales que les permitan fortalecer su comunicación, organizar mejor sus contactos y mantener una relación constante con las personas interesadas en apoyar sus causas. En este contexto, el email marketing se ha convertido en una estrategia relevante para establecer una comunicación directa, segmentada y medible con diferentes públicos, tales como donantes, voluntarios, aliados estratégicos, compradores de productos con causa y personas interesadas en recibir información sobre las actividades realizadas.
 
-\subsection{Antecedentes}
-\label{sec:antecedentes}
+El presente proyecto de estadías se desarrolla en Mejora Tu Playa A.C., una asociación civil sin fines de lucro dedicada a la limpieza, conservación y restauración de playas en México, así como a la educación ambiental en comunidades, escuelas, empresas e instituciones. La organización utiliza diversos canales digitales para difundir sus actividades, promover la participación ciudadana, captar donativos, ofrecer productos con causa y establecer alianzas con empresas socialmente responsables.
 
-Las organizaciones sin fines de lucro dependen en gran medida de la comunicación con su comunidad para mantener activa la participación social, promover campañas, recibir donativos,
-generar alianzas y difundir los resultados de sus actividades. Tradicionalmente, muchas asociaciones han utilizado redes sociales como principal medio de difusión; sin embargo, aunque estas
-plataformas son útiles para alcanzar audiencias amplias, no siempre garantizan que el mensaje
-llegue directamente a cada persona interesada.
-El email marketing surge como una herramienta que permite construir una base de datos propia y establecer una comunicación directa con los diferentes públicos de una organización. A
-diferencia de las redes sociales, el correo electrónico permite segmentar audiencias, personalizar
-mensajes, automatizar respuestas y medir el desempeño de las campañas mediante indicadores
-como aperturas, clics, conversiones y crecimiento de contactos.
-En el caso de Mejora Tu Playa A.C., la asociación ha desarrollado diferentes iniciativas para promover la participación ciudadana y empresarial en el cuidado de los ecosistemas costeros.
-Sus actividades incluyen brigadas de limpieza, educación ambiental, instalación y mantenimiento
-de contenedores, venta de productos con causa, campañas de donación, alianzas con empresas
-y difusión de reportes de impacto. Estas acciones generan múltiples puntos de contacto con
-personas interesadas en apoyar la causa.
-Antes del desarrollo de este proyecto, parte de la comunicación digital dependía de formularios
-dentro de Shopify, respuestas manuales o procesos que no estaban completamente integrados a
-una estrategia de segmentación y automatización. Esto dificultaba clasificar a los contactos de
-acuerdo con su interés y limitaba el aprovechamiento de herramientas especializadas de email
-marketing.
-Por esta razón, se plantea la implementación de Brevo como plataforma para la creación de
-formularios, organización de listas, envío de campañas y configuración de automatizaciones.
-La integración de Brevo con Shopify mediante formularios incrustados permite que cada registro se dirija a una lista específica, facilitando la construcción de funnels de conversión y una
-comunicación más ordenada con los diferentes públicos de la asociación.
-\subsection{Definición del Problema}
-\label{sec:problema}
+Conforme la asociación ha incrementado sus actividades y presencia digital, también ha surgido la necesidad de mejorar la organización de sus contactos y profesionalizar sus procesos de comunicación. Mejora Tu Playa A.C. cuenta con una página web desarrollada en Shopify, en la cual se encuentran diferentes formularios orientados a captar personas interesadas en voluntariado, reportes de actividades, sorteos, donativos, alianzas, puntos de venta, productos con causa y contacto general. Sin embargo, dichos formularios requieren integrarse de manera estratégica a una plataforma de email marketing que permita segmentar adecuadamente la información y facilitar futuras automatizaciones.
 
-Mejora Tu Playa A.C. cuenta con una página web desarrollada en Shopify que funciona como
-canal de comunicación, promoción de actividades, venta de productos con causa, captación de
-donativos y registro de personas interesadas en participar o apoyar a la asociación. A través de
-esta página, los usuarios pueden interactuar con diferentes formularios relacionados con voluntariado, reportes de actividades, sorteos, donaciones, contacto general, alianzas empresariales,
-puntos de venta y productos con causa.
-Sin embargo, los formularios existentes no se encuentran completamente integrados a una estrategia organizada de email marketing. Esto puede ocasionar que los contactos captados se
-almacenen de manera general o poco segmentada, dificultando el envío de mensajes personalizados según el interés de cada persona. Por ejemplo, una persona interesada en participar como
-voluntaria no requiere recibir el mismo tipo de comunicación que una empresa interesada en
-realizar un donativo, un comprador de productos con causa o alguien que únicamente desea
-recibir reportes de actividades.
-La falta de segmentación también limita la posibilidad de implementar automatizaciones efectivas, tales como correos de bienvenida, confirmaciones de registro, seguimiento a prospectos,
-invitaciones a brigadas, reportes de impacto, campañas de donación o mensajes dirigidos a empresas aliadas. Como consecuencia, parte del seguimiento puede depender de procesos manuales,
-lo cual reduce la eficiencia operativa y aumenta el riesgo de perder oportunidades de conversión.
-Además, en el caso de una asociación civil, la comunicación digital no solo cumple una función
-informativa, sino que también fortalece la confianza, la transparencia y la relación con la comunidad. Si una persona se registra, dona, compra un producto con causa o muestra interés en
-apoyar, es importante que reciba una respuesta clara, profesional y alineada con el propósito
-de la organización. La ausencia de una estructura automatizada puede generar incertidumbre
-en los usuarios, disminuir la retención de contactos y desaprovechar el primer acercamiento con
-posibles donantes, voluntarios o aliados.
-Por ello, surge la necesidad de diseñar e implementar una estrategia de email marketing y funnels
-de conversión que permita conectar los formularios de Shopify con listas específicas en Brevo,
-segmentar adecuadamente la base de datos, automatizar mensajes clave y diseñar plantillas de
-correo electrónico profesionales. Esta solución busca mejorar la comunicación institucional de
-Mejora Tu Playa A.C., optimizar la gestión de contactos y fortalecer sus procesos de captación,
-seguimiento y conversión.
+Por ello, este proyecto se enfoca en el diseño, implementación y optimización de una estrategia de email marketing y funnels de conversión mediante la integración de formularios de Brevo en Shopify, la creación de listas específicas de contactos, la segmentación de audiencias, el diseño de plantillas de correo electrónico en HTML/CSS y la propuesta de flujos automatizados de comunicación. La finalidad es que cada persona que interactúe con la asociación pueda ser clasificada de acuerdo con su interés y recibir mensajes más relevantes, oportunos y alineados con su tipo de participación.
+
+Desde el enfoque de la Ingeniería en Tecnologías de la Información e Innovación Digital, el proyecto representa una solución tecnológica aplicada a una necesidad real de comunicación institucional. La implementación de formularios, listas, automatizaciones y plantillas digitales permitirá mejorar la gestión de contactos, reducir procesos manuales, fortalecer la imagen profesional de la asociación y aumentar las posibilidades de conversión en campañas de donación, participación, afiliación, adopciones simbólicas y alianzas estratégicas.
+
 \subsection{Objetivos}
 \label{sec:objetivos}
-
-Los objetivos son las metas que se esperan alcanzar con la realización de la investigación. Deben ser claros, medibles, alcanzables, relevantes y con un tiempo definido (SMART, por sus siglas en inglés). Se dividen en un objetivo general y varios objetivos específicos.
 
 \subsubsection{Objetivo General}
 \label{subsec:objetivo_general}
 
-El objetivo general expresa el propósito fundamental del estudio en términos amplios. Es la meta principal que se busca lograr y generalmente abarca la totalidad de la investigación. Debe ser coherente con la definición del problema.
-\begin{itemize}
-    \item \textbf{Ejemplo:} Desarrollar un sistema automatizado para la detección temprana de fallas en turbinas eólicas utilizando técnicas de aprendizaje automático.
-\end{itemize}
+Diseñar e implementar una estrategia integral de email marketing con funnels de conversión para Mejora Tu Playa A.C., mediante la integración de formularios de Brevo en Shopify, la segmentación de contactos, el diseño de plantillas de correo electrónico y la estructuración de automatizaciones, con el propósito de mejorar la comunicación con prospectos, donantes, voluntarios, compradores con causa y aliados estratégicos, fortaleciendo la relación con la comunidad y aumentando las conversiones en campañas de donación, afiliación y participación.
 
 \subsubsection{Objetivos Específicos}
 \label{subsec:objetivos_especificos}
 
-Los objetivos específicos detallan los pasos o las acciones concretas que se llevarán a cabo para alcanzar el objetivo general. Son tareas más pequeñas y desglosadas que, al ser cumplidas, permiten la consecución del objetivo principal.
 \begin{itemize}
-    \item \textbf{Ejemplo 1:} Recopilar y preprocesar un conjunto de datos de vibraciones y parámetros operativos de turbinas eólicas.
-    \item \textbf{Ejemplo 2:} Implementar y evaluar diferentes algoritmos de aprendizaje automático para la clasificación de estados operativos (normal, pre-falla, falla).
-    \item \textbf{Ejemplo 3:} Diseñar una interfaz de usuario para la visualización de alertas y el monitoreo en tiempo real del estado de las turbinas.
+    \item Identificar los formularios existentes dentro de la página web de Shopify de Mejora Tu Playa A.C. y clasificarlos de acuerdo con su objetivo de captación.
+    \item Diseñar y estructurar funnels de conversión según el tipo de público, tales como donantes, voluntarios, empresas aliadas, compradores de productos con causa y personas interesadas en recibir reportes de actividades.
+    \item Crear y organizar listas específicas en Brevo para segmentar la base de datos de acuerdo con el interés de cada contacto.
+    \item Diseñar formularios en Brevo que se adapten a las necesidades de captación de información de la asociación.
+    \item Integrar formularios de Brevo en páginas de Shopify mediante iframe, con el fin de conectar cada formulario a una lista específica de contactos.
+    \item Verificar que cada formulario envíe correctamente los registros a la lista correspondiente dentro de Brevo.
+    \item Diseñar secuencias de correos automatizados para bienvenida, confirmación, nutrición, seguimiento, recuperación y conversión.
+    \item Desarrollar campañas de email marketing enfocadas en donaciones, membresías, participación en actividades, adopciones simbólicas, reportes de impacto y alianzas estratégicas.
+    \item Diseñar plantillas de correo electrónico en HTML/CSS que mantengan una imagen visual profesional, clara y coherente con la identidad institucional de Mejora Tu Playa A.C.
+    \item Optimizar los contenidos, asuntos, llamados a la acción y diseño de los correos electrónicos para mejorar indicadores como tasa de apertura, clics y conversiones.
+    \item Proponer una estructura inicial de automatizaciones que permita mantener una relación continua con cada segmento de audiencia.
+    \item Medir el desempeño de campañas y funnels mediante indicadores clave como tasa de apertura, CTR, tasa de conversión, crecimiento de base de datos y recuperación de contactos.
+    \item Generar propuestas de mejora continua basadas en los resultados obtenidos y el comportamiento de la audiencia.
 \end{itemize}
+
+\subsection{Planteamiento del problema}
+\label{sec:planteamiento_problema}
+
+Mejora Tu Playa A.C. cuenta con una página web desarrollada en Shopify que funciona como canal de comunicación, promoción de actividades, venta de productos con causa, captación de donativos y registro de personas interesadas en participar o apoyar a la asociación. A través de esta página, los usuarios pueden interactuar con diferentes formularios relacionados con voluntariado, reportes de actividades, sorteos, donaciones, contacto general, alianzas empresariales, puntos de venta y productos con causa.
+
+Sin embargo, los formularios existentes no se encuentran completamente integrados a una estrategia organizada de email marketing. Esto puede ocasionar que los contactos captados se almacenen de manera general o poco segmentada, dificultando el envío de mensajes personalizados según el interés de cada persona. Por ejemplo, una persona interesada en participar como voluntaria no requiere recibir el mismo tipo de comunicación que una empresa interesada en realizar un donativo, un comprador de productos con causa o alguien que únicamente desea recibir reportes de actividades.
+
+La falta de segmentación también limita la posibilidad de implementar automatizaciones efectivas, tales como correos de bienvenida, confirmaciones de registro, seguimiento a prospectos, invitaciones a brigadas, reportes de impacto, campañas de donación o mensajes dirigidos a empresas aliadas. Como consecuencia, parte del seguimiento puede depender de procesos manuales, lo cual reduce la eficiencia operativa y aumenta el riesgo de perder oportunidades de conversión.
+
+Además, en el caso de una asociación civil, la comunicación digital no solo cumple una función informativa, sino que también fortalece la confianza, la transparencia y la relación con la comunidad. Si una persona se registra, dona, compra un producto con causa o muestra interés en apoyar, es importante que reciba una respuesta clara, profesional y alineada con el propósito de la organización. La ausencia de una estructura automatizada puede generar incertidumbre en los usuarios, disminuir la retención de contactos y desaprovechar el primer acercamiento con posibles donantes, voluntarios o aliados.
+
+Por ello, surge la necesidad de diseñar e implementar una estrategia de email marketing y funnels de conversión que permita conectar los formularios de Shopify con listas específicas en Brevo, segmentar adecuadamente la base de datos, automatizar mensajes clave y diseñar plantillas de correo electrónico profesionales. Esta solución busca mejorar la comunicación institucional de Mejora Tu Playa A.C., optimizar la gestión de contactos y fortalecer sus procesos de captación, seguimiento y conversión.
+
+\subsection{Antecedentes}
+\label{sec:antecedentes}
+
+Las organizaciones sin fines de lucro dependen en gran medida de la comunicación con su comunidad para mantener activa la participación social, promover campañas, recibir donativos, generar alianzas y difundir los resultados de sus actividades. Tradicionalmente, muchas asociaciones han utilizado redes sociales como principal medio de difusión; sin embargo, aunque estas plataformas son útiles para alcanzar audiencias amplias, no siempre garantizan que el mensaje llegue directamente a cada persona interesada.
+
+El email marketing surge como una herramienta que permite construir una base de datos propia y establecer una comunicación directa con los diferentes públicos de una organización. A diferencia de las redes sociales, el correo electrónico permite segmentar audiencias, personalizar mensajes, automatizar respuestas y medir el desempeño de las campañas mediante indicadores como aperturas, clics, conversiones y crecimiento de contactos.
+
+En el caso de Mejora Tu Playa A.C., la asociación ha desarrollado diferentes iniciativas para promover la participación ciudadana y empresarial en el cuidado de los ecosistemas costeros. Sus actividades incluyen brigadas de limpieza, educación ambiental, instalación y mantenimiento de contenedores, venta de productos con causa, campañas de donación, alianzas con empresas y difusión de reportes de impacto. Estas acciones generan múltiples puntos de contacto con personas interesadas en apoyar la causa.
+
+Antes del desarrollo de este proyecto, parte de la comunicación digital dependía de formularios dentro de Shopify, respuestas manuales o procesos que no estaban completamente integrados a una estrategia de segmentación y automatización. Esto dificultaba clasificar a los contactos de acuerdo con su interés y limitaba el aprovechamiento de herramientas especializadas de email marketing.
+
+Por esta razón, se plantea la implementación de Brevo como plataforma para la creación de formularios, organización de listas, envío de campañas y configuración de automatizaciones. La integración de Brevo con Shopify mediante formularios incrustados permite que cada registro se dirija a una lista específica, facilitando la construcción de funnels de conversión y una comunicación más ordenada con los diferentes públicos de la asociación.
+
+\subsection{Antecedentes de la empresa}
+\label{sec:antecedentes_empresa}
+
+Mejora Tu Playa A.C. es una asociación civil sin fines de lucro dedicada a la limpieza, conservación y restauración de playas en México. Su labor se enfoca en proteger los ecosistemas costeros mediante la participación ciudadana, el voluntariado, la educación ambiental, la colaboración con empresas y la implementación de acciones permanentes que contribuyan al cuidado de las playas.
+
+La organización inició actividades aproximadamente en diciembre de 2021 y se constituyó legalmente como asociación civil en diciembre de 2023. Además, cuenta con autorización como donataria, lo que le permite recibir donativos deducibles de impuestos y fortalecer sus esquemas de colaboración con empresas, aliados y patrocinadores.
+
+Entre sus principales actividades se encuentran las brigadas de limpieza de playas, la concientización ambiental en escuelas, empresas y comunidades, la instalación y mantenimiento de contenedores de basura en zonas de playa, la promoción de productos con causa, la captación de donativos y la generación de alianzas estratégicas con empresas socialmente responsables.
+
+Mejora Tu Playa A.C. trabaja principalmente en playas de Tamaulipas, como Playa La Pesca, Playa Miramar y Playa Escondida, aunque también contempla la posibilidad de ampliar sus actividades a otras zonas costeras del país. La asociación busca no solo retirar residuos de las playas, sino también impulsar una cultura ambiental responsable que involucre a la sociedad en la protección de los ecosistemas.
+
+Su comunicación digital se apoya en redes sociales, página web, campañas de participación, productos con causa y reportes de impacto. La página web de la asociación está desarrollada en Shopify y funciona como un espacio para mostrar información institucional, promover donativos, vender productos con causa, difundir actividades y captar personas interesadas en apoyar.
+
+La misión de Mejora Tu Playa A.C. puede describirse como contribuir a la conservación y regeneración de las playas mexicanas mediante la participación activa de la sociedad, el sector privado y la educación ambiental. Su visión se orienta a convertirse en una organización referente en México en limpieza, conservación y restauración de playas, impulsando una cultura ambiental responsable y permanente.
+
+Entre sus valores destacan la responsabilidad ambiental, transparencia, colaboración, compromiso social, educación y conciencia, voluntariado activo, innovación sostenible y perseverancia.
+
+\subsection{Antecedentes teóricos}
+\label{sec:antecedentes_teoricos}
+
+\subsubsection{Email marketing}
+
+El email marketing es una estrategia de comunicación digital basada en el envío de correos electrónicos a una base de contactos previamente captada. Esta herramienta permite mantener una comunicación directa con audiencias interesadas, enviar información relevante, agradecer participaciones, promover campañas, compartir reportes de impacto y dar seguimiento a prospectos.
+
+En organizaciones sin fines de lucro, el email marketing puede utilizarse para fortalecer la relación con donadores, voluntarios, aliados, compradores con causa y personas interesadas en conocer los resultados de las actividades realizadas. Su valor radica en que permite enviar mensajes segmentados, medibles y adaptados a cada tipo de público.
+
+\subsubsection{Segmentación de contactos}
+
+La segmentación consiste en clasificar los contactos de una base de datos de acuerdo con sus características, intereses, comportamiento o tipo de relación con la organización. En el contexto de este proyecto, la segmentación permite diferenciar entre voluntarios, donadores, empresas aliadas, participantes de sorteos, compradores de productos con causa, personas interesadas en reportes y contactos generales.
+
+Una correcta segmentación mejora la relevancia de los mensajes enviados, evita comunicaciones genéricas y permite diseñar funnels de conversión específicos para cada audiencia.
+
+\subsubsection{Funnels de conversión}
+
+Un funnel de conversión, también conocido como embudo de conversión, representa el proceso que sigue una persona desde su primer contacto con una organización hasta la realización de una acción deseada. En este proyecto, las acciones deseadas pueden ser registrarse como voluntario, realizar un donativo, adoptar simbólicamente un producto con causa, participar en una brigada, convertirse en aliado o solicitar información.
+
+El diseño de funnels permite acompañar al usuario mediante diferentes etapas, como captación, bienvenida, nutrición, seguimiento, conversión y fidelización.
+
+\subsubsection{Automatización de marketing}
+
+La automatización de marketing permite enviar mensajes de manera automática cuando un usuario realiza una acción específica, como llenar un formulario, registrarse en una lista, realizar una compra o mostrar interés en una campaña. Esta herramienta reduce el trabajo manual y permite mantener una comunicación constante con los contactos.
+
+En Mejora Tu Playa A.C., las automatizaciones pueden aplicarse en correos de bienvenida, confirmaciones de registro, agradecimientos por donativo, seguimiento a empresas, invitaciones a brigadas, recuperación de contactos y envío de reportes de impacto.
+
+\subsubsection{Formularios digitales}
+
+Los formularios web son herramientas de captación de datos que permiten recopilar información de personas interesadas en una organización, producto, campaña o servicio. Un formulario puede incluir campos como nombre, correo electrónico, teléfono, ciudad, tipo de interés y mensaje.
+
+En este proyecto, los formularios digitales tienen un papel central, ya que funcionan como punto de entrada para clasificar a los usuarios dentro de listas específicas en Brevo.
+
+\subsubsection{Shopify}
+
+Shopify es una plataforma de comercio electrónico que permite crear y administrar sitios web, tiendas en línea, páginas informativas, productos y formularios. En el caso de Mejora Tu Playa A.C., Shopify funciona como el sitio web principal de la asociación, donde se promueven donativos, productos con causa, campañas, reportes de impacto y formularios de contacto.
+
+\subsubsection{Brevo}
+
+Brevo es una plataforma de marketing digital que permite administrar contactos, crear formularios, organizar listas, enviar campañas de correo electrónico y configurar automatizaciones. En este proyecto, Brevo se utiliza como herramienta principal para segmentar contactos y preparar la estructura necesaria para futuras campañas de email marketing.
+
+\subsubsection{Integración mediante iframe}
+
+Un iframe permite incrustar contenido externo dentro de una página web. En este proyecto, los formularios creados en Brevo se integran en Shopify mediante iframe, lo cual facilita que cada formulario conserve su conexión con una lista específica dentro de Brevo. Esta alternativa permite reducir problemas técnicos y mantener una integración funcional entre ambas plataformas.
+
+\subsubsection{Plantillas HTML/CSS para correo electrónico}
+
+Las plantillas de correo electrónico desarrolladas en HTML y CSS permiten estandarizar la comunicación visual de una organización. En el caso de los correos electrónicos, es común utilizar estructuras basadas en tablas y estilos en línea para mejorar la compatibilidad con distintos clientes de correo como Gmail, Outlook y otros servicios.
+
+Estas plantillas permiten proyectar una imagen profesional, incluir llamados a la acción, mantener coherencia visual y facilitar la lectura del contenido.
+
+\subsubsection{Métricas de email marketing}
+
+Las métricas permiten evaluar el desempeño de una campaña de email marketing. Entre los indicadores más importantes se encuentran la tasa de apertura, tasa de clics o CTR, tasa de conversión, bajas de suscripción, crecimiento de la base de datos y recuperación de contactos.
+
+Estas métricas permiten tomar decisiones basadas en resultados y proponer mejoras continuas en asuntos, contenidos, diseños, llamados a la acción y segmentación.
+
+\subsection{Tabla comparativa}
+\label{sec:tabla_comparativa}
+
+En la Tabla \ref{tab:comparativa_herramientas} se muestra una comparación de alternativas para la captación y gestión de contactos dentro del proyecto.
+
+\begin{longtable}{|p{3.1cm}|p{3.8cm}|p{4.2cm}|p{3.8cm}|}
+\caption{Comparación de alternativas para captación y gestión de contactos.}\label{tab:comparativa_herramientas}\\
+\hline
+\textbf{Alternativa} & \textbf{Ventajas} & \textbf{Desventajas} & \textbf{Uso recomendado} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Alternativa} & \textbf{Ventajas} & \textbf{Desventajas} & \textbf{Uso recomendado} \\
+\hline
+\endhead
+Formularios nativos de Shopify & Son fáciles de colocar dentro de la página, ya forman parte del sitio web y no requieren una plataforma externa. & Pueden limitar la segmentación, no siempre se conectan directamente a listas específicas de email marketing y ofrecen menor capacidad de automatización. & Contactos básicos o formularios simples que no requieren seguimiento avanzado. \\
+\hline
+Formularios de Brevo incrustados por iframe & Permiten conectar cada formulario a una lista específica, facilitan la segmentación, reducen problemas de conexión y preparan la base para automatizaciones. & El diseño interno del formulario debe modificarse principalmente desde Brevo y no completamente desde Shopify. & Formularios específicos para campañas de email marketing y segmentación de contactos. \\
+\hline
+Formularios de Brevo con código HTML completo & Permiten mayor personalización visual y técnica desde el código. & Pueden generar conflictos con scripts, validaciones o configuraciones del sitio en Shopify. & Casos donde se requiere personalización avanzada y se cuenta con tiempo para pruebas técnicas. \\
+\hline
+Integraciones mediante Make, Zapier o API & Ofrecen alto nivel de automatización y permiten conectar diferentes herramientas. & Requieren mayor configuración técnica, pueden implicar costos adicionales y dependen de servicios externos. & Procesos avanzados donde se desea conservar formularios existentes y enviar datos a Brevo. \\
+\hline
+Brevo PushOwl o integraciones ecommerce avanzadas & Permiten funciones adicionales como carritos abandonados, notificaciones push, SMS o WhatsApp. & Pueden requerir planes de pago y no son indispensables para formularios específicos. & Estrategias avanzadas de ecommerce y recuperación de compras. \\
+\hline
+\end{longtable}
+
+Con base en la comparación anterior, para este proyecto se considera más viable el uso de formularios de Brevo incrustados en Shopify mediante iframe, ya que permite conectar cada formulario con una lista específica, facilita la segmentación de contactos, reduce problemas técnicos y prepara la estructura necesaria para futuras campañas y automatizaciones de email marketing.
 
 \subsection{Justificación}
 \label{sec:justificacion}
 
-La justificación explica por qué es importante y relevante llevar a cabo la investigación. Se deben argumentar los beneficios y la utilidad del estudio desde diferentes perspectivas: teórica, práctica, social, económica, tecnológica, etc. Responde a la pregunta: ¿Por qué vale la pena invertir tiempo y recursos en esta investigación? Aquí se resaltan los aportes que la tesis generará al campo del conocimiento o a la solución de problemas específicos.
+El presente proyecto se justifica por la necesidad de fortalecer la comunicación digital de Mejora Tu Playa A.C. mediante una estrategia organizada de email marketing, segmentación de contactos y funnels de conversión. Al tratarse de una asociación civil sin fines de lucro, la relación con la comunidad es un elemento fundamental para mantener activas sus campañas, sumar voluntarios, captar donativos, generar alianzas y comunicar de forma transparente los resultados de sus actividades.
+
+Actualmente, la asociación recibe distintos tipos de contactos a través de su página web y otros canales digitales. Estos contactos pueden tener intereses diferentes, como participar en brigadas, recibir reportes de actividades, realizar donativos, adquirir productos con causa, colaborar como empresa aliada, integrarse como punto de venta o solicitar información general. Si estos registros no se organizan adecuadamente, la comunicación puede volverse poco efectiva, ya que no todos los públicos requieren el mismo tipo de mensaje ni el mismo seguimiento.
+
+La implementación de formularios de Brevo integrados en Shopify permitirá que cada registro se dirija automáticamente a una lista específica, facilitando la organización de la base de datos y la creación de campañas segmentadas. Esto reducirá el trabajo manual, mejorará el orden de la información y permitirá que la asociación mantenga una comunicación más clara, personalizada y oportuna con cada audiencia.
+
+Desde el punto de vista tecnológico, el proyecto representa una aplicación práctica de herramientas digitales para resolver un problema real de comunicación institucional. La integración entre Shopify y Brevo, el uso de formularios incrustados, la segmentación de listas, el diseño de plantillas HTML/CSS y la propuesta de automatizaciones forman parte de una solución que combina marketing digital, experiencia de usuario, gestión de datos y optimización de procesos.
+
+Desde el punto de vista social, el proyecto contribuye a fortalecer a una organización dedicada al cuidado ambiental. Una comunicación más efectiva puede aumentar la participación ciudadana, mejorar la confianza de donantes y aliados, facilitar el envío de reportes de impacto y promover una cultura ambiental responsable. En este sentido, el proyecto no solo busca mejorar un proceso digital, sino también apoyar indirectamente la continuidad de las actividades de limpieza, conservación y restauración de playas.
+
+Por lo anterior, el desarrollo de esta estrategia resulta pertinente, ya que permite aplicar conocimientos de Ingeniería en Tecnologías de la Información e Innovación Digital en beneficio de una asociación civil, generando una solución escalable, funcional y alineada con las necesidades actuales de la organización.
 
 \subsection{Alcances y Limitaciones}
 \label{sec:alcances_limitaciones}
@@ -117,66 +188,44 @@ La justificación explica por qué es importante y relevante llevar a cabo la in
 \subsubsection{Alcances}
 \label{subsec:alcances}
 
-Los alcances definen claramente hasta dónde llegará el estudio, qué aspectos cubrirá y cuáles serán sus fronteras. Establecen qué elementos, variables, poblaciones o contextos serán incluidos en la investigación. Es esencial para evitar expectativas irrealistas y para mantener el enfoque del trabajo.
+El proyecto contempla la revisión, diseño e implementación inicial de una estrategia de email marketing y funnels de conversión para Mejora Tu Playa A.C., enfocada en la captación, segmentación y seguimiento de contactos. Entre los principales alcances se encuentran:
+
+\begin{itemize}
+    \item Revisión de los formularios existentes en la página web de Shopify.
+    \item Identificación del objetivo de cada formulario de acuerdo con el tipo de usuario o campaña.
+    \item Clasificación de formularios para públicos como voluntarios, donadores, aliados, participantes de sorteos, compradores con causa, puntos de venta, contactos generales y personas interesadas en reportes de actividades.
+    \item Creación de listas específicas en Brevo para organizar los contactos captados.
+    \item Diseño o adaptación de formularios dentro de Brevo.
+    \item Integración de formularios de Brevo en Shopify mediante iframe.
+    \item Pruebas de funcionamiento para verificar que cada formulario envíe correctamente los registros a su lista correspondiente.
+    \item Propuesta de funnels de conversión de acuerdo con cada segmento de audiencia.
+    \item Diseño de secuencias de correos automatizados para bienvenida, confirmación, seguimiento y conversión.
+    \item Desarrollo de plantillas de correo electrónico en HTML/CSS con estructura visual profesional y llamados a la acción.
+    \item Propuesta de campañas de email marketing orientadas a donaciones, productos con causa, voluntariado, reportes de impacto y alianzas estratégicas.
+    \item Definición de indicadores clave para medir el desempeño de campañas y funnels.
+    \item Generación de propuestas de mejora continua con base en el comportamiento de la audiencia.
+\end{itemize}
 
 \subsubsection{Limitaciones}
 \label{subsec:limitaciones}
 
-Las limitaciones son los factores externos o internos que podrían restringir la validez, generalización o profundidad de los resultados de la investigación. Es importante identificarlas honestamente, ya que demuestran un pensamiento crítico por parte del investigador. Pueden incluir restricciones de tiempo, recursos, acceso a datos, metodológicas, etc.
+El proyecto también presenta ciertas limitaciones técnicas, operativas y de tiempo que deben considerarse:
 
-\subsection{Ejemplos de Tablas e Inclusión de Imágenes}
-\label{sec:ejemplos_elementos}
+\begin{itemize}
+    \item El diseño interno de los formularios incrustados mediante iframe debe modificarse principalmente desde Brevo, por lo que el control visual desde Shopify puede ser limitado.
+    \item Algunas automatizaciones pueden quedar como propuesta o estructura inicial si el periodo de estadías no permite implementarlas completamente.
+    \item La medición de resultados puede requerir más tiempo, ya que las campañas de email marketing necesitan historial de envíos, aperturas, clics y conversiones para generar datos representativos.
+    \item La efectividad de la estrategia dependerá de la calidad de los datos captados en los formularios.
+    \item El proyecto no contempla el desarrollo completo del backend del sitio web principal.
+    \item El proyecto no incluye la administración completa de redes sociales ni la creación de campañas de publicidad pagada.
+    \item Algunas funciones de Brevo pueden estar sujetas al plan contratado por la organización.
+    \item Shopify puede presentar restricciones dependiendo del tema utilizado, las secciones disponibles o la forma en que permite insertar código personalizado.
+    \item La compatibilidad visual de los correos puede variar según el cliente de correo electrónico utilizado por el usuario final, como Gmail, Outlook u otros servicios.
+    \item La cantidad de formularios, campañas o automatizaciones implementadas dependerá del tiempo disponible durante el periodo de estadías.
+\end{itemize}
 
-Para ilustrar el uso de elementos visuales en su tesis, a continuación se presentan ejemplos básicos de cómo incluir tablas e imágenes en LaTeX.
+\subsection{Temas tentativos para el marco teórico}
+\label{sec:temas_marco_teorico}
 
-\subsubsection{Inclusión de Tablas}
+Para el desarrollo del marco teórico, se proponen los siguientes temas:
 
-Las tablas son herramientas fundamentales para presentar datos de manera organizada y comprensible.
-\begin{table}[H]
-    \centering
-    \caption{Clasificación de Sensores Comunes en Ingeniería.}
-    \label{tab:sensores_comunes}
-    \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Tipo de Sensor} & \textbf{Magnitud Medida} & \textbf{Principio de Funcionamiento} \\
-        \hline
-        Termopar & Temperatura & Efecto Seebeck \\
-        Extensómetro & Deformación & Resistencia eléctrica \\
-        Acelerómetro & Aceleración & Efecto piezoeléctrico \\
-        Encoder rotatorio & Posición angular & Óptico/Magnético \\
-        \hline
-    \end{tabular}
-    \caption*{Nota: Esta tabla es un ejemplo para demostrar la estructura básica de una tabla en LaTeX.}
-\end{table}
-Como se puede observar en la Tabla \ref{tab:sensores_comunes}, la información se presenta de forma clara y estructurada. Es importante añadir un \verb|`\caption`|  para describir la tabla y un  \verb|`\label`|  para referenciarla en el texto.
-
-\subsubsection{Inclusión de Imágenes}
-
-Las imágenes, gráficos o diagramas son cruciales para complementar la explicación textual y facilitar la comprensión de conceptos complejos o resultados visuales.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{img/diagrama_proceso}
-    \caption{Diagrama de un proceso de control automático.}
-    \label{fig:diagrama_control}
-\end{figure}
-% La Figura \ref{fig:diagrama_control} ilustra un ejemplo de un diagrama de un proceso de control. Para incluir una imagen, se utiliza el entorno `figure` y el comando `\includegraphics`. Es fundamental especificar la ruta de la imagen (en este caso, `images/diagrama_proceso.png`) y un `width` para controlar su tamaño. Al igual que con las tablas, un `\caption` y un `\label` son indispensables. Es crucial que cada imagen tenga una calidad adecuada y que sea relevante para el texto.
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos1}
-        \caption{Datos de Temperatura.}
-        \label{fig:subfig_temp}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{img/grafico_datos2}
-        \caption{Datos de Presión.}
-        \label{fig:subfig_pres}
-    \end{subfigure}
-    \caption{Comparación de datos operativos de un sistema (Temperatura vs. Presión).}
-    \label{fig:comparacion_datos}
-\end{figure}
-Incluso es posible combinar varias imágenes en una sola figura, como se muestra en la Figura \ref{fig:comparacion_datos}, utilizando el paquete `subcaption`.
-
-Asegúrense de que todas las figuras y tablas estén debidamente referenciadas en el texto y que su contenido sea autoexplicativo, utilizando los pies de figura y títulos de tabla de manera efectiva.
