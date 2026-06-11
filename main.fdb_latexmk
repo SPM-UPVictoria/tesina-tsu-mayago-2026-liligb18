@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1779499217.21159 "main.bcf" "main.bbl" "main" 1779894098.86258 0
-  "Referencias.bib" 1779488939 3697 41c11ceec8649109896d18f1fa5554e2 ""
-  "main.bcf" 1779894098 108421 3a1344b1160decb1fd8ca3239ada97c6 "pdflatex"
+["biber main"] 1781198258.96226 "main.bcf" "main.bbl" "main" 1781198364.11241 0
+  "Referencias.bib" 1781197991 4620 118314c6798693209cbd95ebc26db525 ""
+  "main.bcf" 1781198363 109504 13970e5fd46575e40114f9e45690c7e5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1779894095.70544 "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" "main.pdf" "main" 1779894098.86332 0
+["pdflatex"] 1781198357.43373 "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" "main.pdf" "main" 1781198364.11307 0
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779499196 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1779499212 31952 b9be7f7aeb647b3d82ec79495c600f0b ""
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1779499211 40136 0a34d47e39065bdd665a6a2ac6e1108f ""
@@ -255,22 +255,21 @@
   "C:/Users/blili/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "LogoUPV_2023.png" 1779488939 135292 80af2bf2f94e61e542c06ed161ce1345 ""
   "Membrete2023.pdf" 1779488939 259207 95421e691ffb3724a5bf35893a152f98 ""
-  "Referencias.bib" 1779488939 3697 41c11ceec8649109896d18f1fa5554e2 ""
   "UTYP.png" 1779488939 37831 6341e5aeae893dd331cd87983b1be4b3 ""
-  "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" 1779497773 14935 7c93bab13fab367da7334b90f261b645 ""
+  "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" 1781198353 14884 edd639a37c6bcb1c355b969df105dfb0 ""
   "conclusiones.tex" 1779488939 167 58c97b577cc4a7b765a6392283e7fd37 ""
   "documentosDigitalizados/CartaAceptacion.pdf" 1779488939 42727 77b78c5018a50c02ebc42cc6b66a9291 ""
   "documentosDigitalizados/CartaLiberacion.pdf" 1779488939 37353 fe0e5803f869f1c1e00df142f69ca031 ""
   "documentosDigitalizados/CartaPresentacion.pdf" 1779488939 46612 771abe882bc1981f6482ed01c9fb13cc ""
   "documentosDigitalizados/SeguroFacultativo.pdf" 1779488939 14172 eb2e389a4a7b36ff0229f5663e919060 ""
   "img/calorias1.png" 1779488939 229544 fe0b6ef40aaef5913bfb01b26cfb2d48 ""
-  "introduccion.tex" 1779894091 28797 040b850f07df9991bac0c7d67b63f1ed ""
-  "main.aux" 1779894098 8208 a7e634ca511a5a8091f5e356375a6085 "pdflatex"
-  "main.bbl" 1779499326 13023 254ed2d9c20676f4117dd46146a22961 "biber main"
-  "main.out" 1779894098 4646 3293e90cc22ef1098f97bdaf6e470f9e "pdflatex"
-  "main.run.xml" 1779894098 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
-  "main.tex" 1779497773 14935 7c93bab13fab367da7334b90f261b645 ""
-  "main.toc" 1779894098 2670 89d766a5eb63324103620268ad461b8a "pdflatex"
+  "introduccion.tex" 1781195423 32085 24091e8b945f4d1b842b8eb8dc63a984 ""
+  "main.aux" 1781198363 8163 1170a0efa45b4ab9068c2f705bd74ce1 "pdflatex"
+  "main.bbl" 1781198260 18176 7e020f3cbe4a2d6a44c9eba6b001f0d3 "biber main"
+  "main.out" 1781198363 4556 9b4ac0b63c2f9e0b38ad3d80b67f9a2e "pdflatex"
+  "main.run.xml" 1781198363 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
+  "main.tex" 1781198353 14884 edd639a37c6bcb1c355b969df105dfb0 ""
+  "main.toc" 1781198363 2482 e2f7c79e36686f23627800d41441b04c "pdflatex"
   "metodologia.tex" 1779488939 4147 5c32bf02e6a8e1f03c41edcfecebc1da ""
   "resultados.tex" 1779488939 1095 db5af9c18ffdb5d2bd76b6af6b9ea184 ""
   (generated)
