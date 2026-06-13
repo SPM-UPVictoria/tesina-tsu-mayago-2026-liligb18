@@ -1,0 +1,29 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{Resumen}{\es@scroman {iii}}{Doc-Start}%
+\contentsline {section}{Abstract}{\es@scroman {iv}}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {section}{\numberline {2}Objetivo general y objetivos específicos}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo general}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Objetivos específicos}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Planteamiento del problema}{3}{section.3}%
+\contentsline {section}{\numberline {4}Antecedentes}{5}{section.4}%
+\contentsline {section}{\numberline {5}Antecedentes de la empresa}{6}{section.5}%
+\contentsline {section}{\numberline {6}Antecedentes teóricos}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Marketing digital}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Email marketing}{7}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Segmentación de audiencias}{8}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Funnels de conversión}{8}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Automatización de marketing}{9}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Comunicación digital en organizaciones sin fines de lucro}{9}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Métricas de email marketing}{9}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Tabla comparativa}{10}{section.7}%
+\contentsline {section}{\numberline {8}Justificación}{11}{section.8}%
+\contentsline {section}{\numberline {9}Alcances y limitaciones}{13}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Alcances}{13}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Limitaciones}{14}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Temas tentativos para el marco teórico}{15}{section.10}%
+\contentsline {section}{\numberline {11}Metodología}{17}{section.11}%
+\contentsline {section}{\numberline {12}Resultados}{20}{section.12}%
+\contentsline {section}{\numberline {13}Conclusiones}{21}{section.13}%
+\contentsline {section}{Bibliografía}{22}{section.13}%
+\contentsline {section}{Anexos}{24}{section.13}%
