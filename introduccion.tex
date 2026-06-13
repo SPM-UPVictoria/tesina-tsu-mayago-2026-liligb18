@@ -50,15 +50,17 @@ Por ello, surge la necesidad de diseñar e implementar una estrategia de email m
 
 \section{Antecedentes}
 
-Las organizaciones sin fines de lucro dependen en gran medida de la comunicación con su comunidad para mantener activa la participación social, promover campañas, recibir donativos, generar alianzas y difundir los resultados de sus actividades. Tradicionalmente, muchas asociaciones han utilizado redes sociales como principal medio de difusión; sin embargo, aunque estas plataformas son útiles para alcanzar audiencias amplias, no siempre garantizan que el mensaje llegue directamente a cada persona interesada.
+La comunicación digital se ha convertido en un elemento fundamental para las organizaciones que buscan mantener una relación constante con sus públicos. En el caso de las organizaciones sin fines de lucro, la comunicación no solo permite informar sobre actividades o campañas, sino también fortalecer la confianza, promover la participación social y mantener el vínculo con donantes, voluntarios, aliados y personas interesadas en una causa. De acuerdo con Kotler y Lee, el marketing social permite diseñar estrategias orientadas a influir en comportamientos que generen beneficios para la sociedad, lo cual resulta relevante para organizaciones que promueven causas ambientales y participación ciudadana \cite{kotler_lee_social_marketing}.
 
-El email marketing surge como una herramienta que permite construir una base de datos propia y establecer una comunicación directa con los diferentes públicos de una organización. A diferencia de las redes sociales, el correo electrónico permite segmentar audiencias, personalizar mensajes, automatizar respuestas y medir el desempeño de las campañas mediante indicadores como aperturas, clics, bajas de suscripción y conversiones \cite{mailchimp_benchmarks}.
+En años recientes, las organizaciones han incorporado herramientas de marketing digital para mejorar sus procesos de comunicación, captación y fidelización. El email marketing se ha consolidado como una de estas herramientas debido a que permite enviar mensajes directos a una base de contactos, segmentar audiencias y medir el desempeño de las campañas mediante indicadores como aperturas, clics y bajas de suscripción \cite{mailchimp_benchmarks}. Esto representa una ventaja frente a otros canales digitales, ya que permite mantener una base de datos propia y establecer una comunicación más personalizada con cada público.
+
+La segmentación de audiencias también se ha vuelto un aspecto importante dentro de las estrategias digitales, ya que permite clasificar los contactos de acuerdo con características, intereses o comportamientos específicos. HubSpot señala que los segmentos permiten organizar registros para realizar acciones como el envío de correos personalizados o la activación de flujos de trabajo de acuerdo con el comportamiento o las propiedades de los contactos \cite{hubspot_segments}. En este sentido, una estrategia de comunicación digital resulta más efectiva cuando los mensajes se adaptan al tipo de relación que cada persona mantiene con la organización.
+
+Por otra parte, la automatización de marketing permite reducir procesos manuales y mantener una comunicación continua con los usuarios a partir de acciones específicas, como el registro en un formulario, la interacción con una campaña o el clic en un enlace. Brevo documenta que sus herramientas de automatización pueden utilizar eventos como aperturas o clics en campañas de correo para activar acciones posteriores de seguimiento \cite{brevo_automation_clicks}. Esto muestra la importancia de contar con una estructura digital que permita acompañar al usuario desde el primer contacto hasta la acción deseada.
 
 En el caso de Mejora Tu Playa A.C., la asociación ha desarrollado diferentes iniciativas para promover la participación ciudadana y empresarial en el cuidado de los ecosistemas costeros. Sus actividades incluyen brigadas de limpieza, educación ambiental, instalación y mantenimiento de contenedores, venta de productos con causa, campañas de donación, alianzas con empresas y difusión de reportes de impacto. Estas acciones generan múltiples puntos de contacto con personas interesadas en apoyar la causa.
 
-Antes del desarrollo de este proyecto, parte de la comunicación digital dependía de formularios dentro de Shopify, respuestas manuales o procesos que no estaban completamente integrados a una estrategia de segmentación y automatización. Esto dificultaba clasificar a los contactos de acuerdo con su interés y limitaba el aprovechamiento de herramientas especializadas de email marketing.
-
-Por esta razón, se plantea la implementación de Brevo como plataforma para la creación de formularios, organización de listas, envío de campañas y configuración de automatizaciones. La integración de Brevo con Shopify mediante formularios incrustados permite que cada registro se dirija a una lista específica, facilitando la construcción de funnels de conversión y una comunicación más ordenada con los diferentes públicos de la asociación.
+Antes del desarrollo de este proyecto, parte de la comunicación digital dependía de formularios dentro de la página web, respuestas manuales o procesos que no estaban completamente integrados a una estrategia de segmentación y automatización. Esto dificultaba clasificar a los contactos de acuerdo con su interés y limitaba el aprovechamiento de herramientas especializadas de email marketing. Por esta razón, se plantea la necesidad de diseñar una estrategia que permita organizar contactos, segmentar audiencias, automatizar mensajes clave y fortalecer la comunicación institucional de Mejora Tu Playa A.C.
 
 \section{Antecedentes de la empresa}
 
@@ -78,59 +80,49 @@ Entre sus valores destacan la responsabilidad ambiental, transparencia, colabora
 
 \section{Antecedentes teóricos}
 
+\subsection{Marketing digital}
+
+El marketing digital se refiere al conjunto de estrategias, canales y herramientas utilizadas para comunicar, promocionar, captar y mantener relaciones con públicos específicos a través de medios digitales. En el contexto de una organización sin fines de lucro, estas estrategias pueden utilizarse para difundir campañas, promover donativos, fortalecer la participación ciudadana y comunicar resultados de impacto.
+
+A diferencia de los medios tradicionales, el marketing digital permite medir el comportamiento de los usuarios, analizar la efectividad de las acciones implementadas y ajustar los mensajes según los resultados obtenidos. Por ello, representa una herramienta importante para organizaciones que requieren optimizar recursos y mantener una comunicación constante con diferentes segmentos de audiencia.
+
 \subsection{Email marketing}
 
-El email marketing es una estrategia de comunicación digital basada en el envío de correos electrónicos a una base de contactos previamente captada. Esta herramienta permite mantener una comunicación directa con audiencias interesadas, enviar información relevante, agradecer participaciones, promover campañas, compartir reportes de impacto y dar seguimiento a prospectos. Las plataformas de email marketing permiten administrar campañas, automatizar procesos y evaluar resultados mediante métricas de desempeño \cite{brevo_platform,mailchimp_benchmarks}.
+El email marketing es una estrategia de comunicación digital basada en el envío de correos electrónicos a una base de contactos previamente captada. Esta herramienta permite mantener una comunicación directa con audiencias interesadas, enviar información relevante, agradecer participaciones, promover campañas, compartir reportes de impacto y dar seguimiento a prospectos.
+
+Las plataformas de email marketing permiten administrar campañas, elegir destinatarios, configurar asuntos, crear diseños de correo y analizar resultados. Brevo define las campañas de email como correos enviados a un grupo de destinatarios para promover productos o servicios, compartir contenido útil y construir o mantener relaciones con los contactos \cite{brevo_email_campaigns}. Asimismo, las métricas de email marketing permiten evaluar el desempeño de una campaña mediante indicadores como aperturas, clics y bajas de suscripción \cite{mailchimp_benchmarks}.
 
 En organizaciones sin fines de lucro, el email marketing puede utilizarse para fortalecer la relación con donadores, voluntarios, aliados, compradores con causa y personas interesadas en conocer los resultados de las actividades realizadas. Su valor radica en que permite enviar mensajes segmentados, medibles y adaptados a cada tipo de público.
 
-\subsection{Segmentación de contactos}
+\subsection{Segmentación de audiencias}
 
-La segmentación consiste en clasificar los contactos de una base de datos de acuerdo con sus características, intereses, comportamiento o tipo de relación con la organización. De acuerdo con la documentación de HubSpot, los segmentos permiten agrupar registros con base en propiedades u otras características, facilitando acciones como el envío de correos personalizados o la activación de flujos de trabajo \cite{hubspot_segments}. En el contexto de este proyecto, la segmentación permite diferenciar entre voluntarios, donadores, empresas aliadas, participantes de sorteos, compradores de productos con causa, personas interesadas en reportes y contactos generales.
+La segmentación de audiencias consiste en clasificar a los contactos de una base de datos de acuerdo con características, intereses, comportamiento o tipo de relación con una organización. Esta práctica permite enviar mensajes más relevantes y evitar comunicaciones genéricas para públicos con necesidades diferentes.
 
-Una correcta segmentación mejora la relevancia de los mensajes enviados, evita comunicaciones genéricas y permite diseñar funnels de conversión específicos para cada audiencia.
+HubSpot explica que los segmentos permiten organizar registros en grupos activos o estáticos, lo cual puede utilizarse para enviar correos de marketing personalizados con base en propiedades o comportamientos de los contactos \cite{hubspot_segments}. En este proyecto, la segmentación resulta necesaria para diferenciar públicos como voluntarios, donadores, empresas aliadas, participantes de sorteos, compradores de productos con causa, personas interesadas en reportes y contactos generales.
 
 \subsection{Funnels de conversión}
 
-Un funnel de conversión, también conocido como embudo de conversión, representa el proceso que sigue una persona desde su primer contacto con una organización hasta la realización de una acción deseada. En este proyecto, las acciones deseadas pueden ser registrarse como voluntario, realizar un donativo, adoptar simbólicamente un producto con causa, participar en una brigada, convertirse en aliado o solicitar información.
+Un funnel de conversión, también conocido como embudo de conversión, representa el proceso que sigue una persona desde su primer contacto con una organización hasta la realización de una acción deseada. En una estrategia digital, este proceso puede incluir etapas como captación, interés, seguimiento, conversión y fidelización.
 
-El diseño de funnels permite acompañar al usuario mediante diferentes etapas, como captación, bienvenida, nutrición, seguimiento, conversión y fidelización.
+En el caso de una asociación civil, la conversión no necesariamente se limita a una compra, sino que también puede incluir acciones como registrarse como voluntario, realizar un donativo, adoptar simbólicamente un producto con causa, participar en una brigada, convertirse en aliado o solicitar información. El diseño de funnels permite acompañar al usuario mediante mensajes adecuados en cada etapa del proceso.
 
 \subsection{Automatización de marketing}
 
-La automatización de marketing permite enviar mensajes de manera automática cuando un usuario realiza una acción específica, como llenar un formulario, registrarse en una lista, realizar una compra o mostrar interés en una campaña. Esta herramienta reduce el trabajo manual y permite mantener una comunicación constante con los contactos. Brevo incluye funciones de automatización y gestión de contactos, lo que permite estructurar procesos de seguimiento digital para distintas audiencias \cite{brevo_platform}.
+La automatización de marketing consiste en configurar acciones digitales que se ejecutan de manera automática a partir de determinados eventos o comportamientos del usuario. Estas acciones pueden incluir correos de bienvenida, mensajes de seguimiento, recordatorios, confirmaciones o comunicaciones posteriores a una interacción.
 
-En Mejora Tu Playa A.C., las automatizaciones pueden aplicarse en correos de bienvenida, confirmaciones de registro, agradecimientos por donativo, seguimiento a empresas, invitaciones a brigadas, recuperación de contactos y envío de reportes de impacto.
+Brevo documenta que es posible activar acciones de automatización cuando un contacto abre una campaña o da clic en un enlace específico, lo cual permite realizar seguimientos más precisos según el comportamiento del usuario \cite{brevo_automation_clicks}. En el contexto de Mejora Tu Playa A.C., la automatización puede apoyar procesos como confirmación de registros, bienvenida a voluntarios, agradecimiento por donativos, seguimiento a empresas interesadas, invitaciones a brigadas y envío de reportes de impacto.
 
-\subsection{Formularios digitales}
+\subsection{Comunicación digital en organizaciones sin fines de lucro}
 
-Los formularios web son herramientas de captación de datos que permiten recopilar información de personas interesadas en una organización, producto, campaña o servicio. Un formulario puede incluir campos como nombre, correo electrónico, teléfono, ciudad, tipo de interés y mensaje. Shopify documenta el uso de formularios para interactuar con clientes de una tienda en línea, crear listas de suscriptores de marketing y recopilar información de visitantes \cite{shopify_forms}.
+La comunicación digital en organizaciones sin fines de lucro tiene como objetivo informar, sensibilizar, involucrar y mantener una relación constante con las personas que apoyan una causa. A diferencia de una empresa comercial, una asociación civil debe comunicar no solo productos o servicios, sino también impacto social, transparencia, necesidades operativas y oportunidades de participación.
 
-En este proyecto, los formularios digitales tienen un papel central, ya que funcionan como punto de entrada para clasificar a los usuarios dentro de listas específicas en Brevo.
-
-\subsection{Shopify}
-
-Shopify es una plataforma de comercio electrónico que permite crear y administrar sitios web, tiendas en línea, páginas informativas, productos y formularios. En el caso de Mejora Tu Playa A.C., Shopify funciona como el sitio web principal de la asociación, donde se promueven donativos, productos con causa, campañas, reportes de impacto y formularios de contacto.
-
-\subsection{Brevo}
-
-Brevo es una plataforma de marketing digital que permite administrar contactos, crear formularios, organizar listas, enviar campañas de correo electrónico y configurar automatizaciones. En este proyecto, Brevo se utiliza como herramienta principal para segmentar contactos y preparar la estructura necesaria para futuras campañas de email marketing \cite{brevo_platform}.
-
-\subsection{Integración mediante iframe}
-
-Un iframe permite incrustar contenido externo dentro de una página web. En este proyecto, los formularios creados en Brevo se integran en Shopify mediante iframe, lo cual facilita que cada formulario conserve su conexión con una lista específica dentro de Brevo. Esta alternativa permite reducir problemas técnicos y mantener una integración funcional entre ambas plataformas.
-
-\subsection{Plantillas HTML/CSS para correo electrónico}
-
-Las plantillas de correo electrónico desarrolladas en HTML y CSS permiten estandarizar la comunicación visual de una organización. En el caso de los correos electrónicos, es común utilizar estructuras basadas en tablas y estilos en línea para mejorar la compatibilidad con distintos clientes de correo como Gmail, Outlook y otros servicios.
-
-Estas plantillas permiten proyectar una imagen profesional, incluir llamados a la acción, mantener coherencia visual y facilitar la lectura del contenido.
+En causas ambientales, la comunicación digital puede contribuir a generar conciencia, promover cambios de comportamiento e impulsar la participación ciudadana. El marketing social plantea estrategias enfocadas en promover conductas que generen beneficios para la sociedad, por lo que resulta relevante para proyectos relacionados con educación ambiental, cuidado de playas y participación comunitaria \cite{kotler_lee_social_marketing}.
 
 \subsection{Métricas de email marketing}
 
-Las métricas permiten evaluar el desempeño de una campaña de email marketing. Entre los indicadores más importantes se encuentran la tasa de apertura, tasa de clics o CTR, tasa de conversión, bajas de suscripción, crecimiento de la base de datos y recuperación de contactos. Las métricas de campañas permiten comparar y analizar el desempeño de los correos enviados, especialmente en aspectos como aperturas, clics y bajas \cite{mailchimp_benchmarks}.
+Las métricas de email marketing permiten analizar el desempeño de una campaña y tomar decisiones de mejora con base en datos. Entre los indicadores más utilizados se encuentran la tasa de apertura, tasa de clics, CTR, conversiones, bajas de suscripción y crecimiento de la base de datos.
 
-Estas métricas permiten tomar decisiones basadas en resultados y proponer mejoras continuas en asuntos, contenidos, diseños, llamados a la acción y segmentación.
+Mailchimp señala que las métricas de email marketing permiten evaluar cómo interactúan los destinatarios con los correos enviados y ayudan a identificar oportunidades de mejora en las campañas \cite{mailchimp_benchmarks}. Estas métricas son relevantes para el proyecto porque permiten medir si los asuntos, contenidos, llamados a la acción, diseños y segmentos utilizados cumplen con los objetivos de comunicación y conversión.
 
 \section{Tabla comparativa}
 

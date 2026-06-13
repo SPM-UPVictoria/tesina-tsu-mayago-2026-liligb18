@@ -33,6 +33,7 @@
       \strng{authornamehash}{e102d25de690b520bb1136f4175d4570}
       \strng{authorfullhash}{e102d25de690b520bb1136f4175d4570}
       \strng{authorfullhashraw}{e102d25de690b520bb1136f4175d4570}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -141,6 +142,113 @@
       \endverb
       \verb{url}
       \verb https://knowledge.hubspot.com/lists-user-guide?region=iberia
+      \endverb
+    \endentry
+    \entry{kotler_lee_social_marketing}{online}{}{}
+      \name{author}{3}{}{%
+        {{hash=490d3fe6907c250c4c7efaf8cf797452}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Nancy\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=68992773d1a840399049c9a31388c032}{%
+           family={Kotler},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=273a166453163d2c52ff20bbfc1e75ea}{%
+           family={Colehour},
+           familyi={C\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{89eceb22d96bddb4253cf292695a92f5}
+      \strng{fullhash}{89eceb22d96bddb4253cf292695a92f5}
+      \strng{fullhashraw}{89eceb22d96bddb4253cf292695a92f5}
+      \strng{bibnamehash}{89eceb22d96bddb4253cf292695a92f5}
+      \strng{authorbibnamehash}{89eceb22d96bddb4253cf292695a92f5}
+      \strng{authornamehash}{89eceb22d96bddb4253cf292695a92f5}
+      \strng{authorfullhash}{89eceb22d96bddb4253cf292695a92f5}
+      \strng{authorfullhashraw}{89eceb22d96bddb4253cf292695a92f5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Social Marketing: Behavior Change for Good}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://collegepublishing.sagepub.com/products/social-marketing-7-275147
+      \endverb
+      \verb{url}
+      \verb https://collegepublishing.sagepub.com/products/social-marketing-7-275147
+      \endverb
+    \endentry
+    \entry{brevo_automation_clicks}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=e102d25de690b520bb1136f4175d4570}{%
+           family={{Brevo}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{fullhash}{e102d25de690b520bb1136f4175d4570}
+      \strng{fullhashraw}{e102d25de690b520bb1136f4175d4570}
+      \strng{bibnamehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authorbibnamehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authornamehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authorfullhash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authorfullhashraw}{e102d25de690b520bb1136f4175d4570}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Marketing activity: Send an automated email after a contact interacts with an email campaign}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://help.brevo.com/hc/en-us/articles/360021436620-Marketing-activity-Send-an-automated-email-after-a-contact-interacts-with-an-email-campaign
+      \endverb
+      \verb{url}
+      \verb https://help.brevo.com/hc/en-us/articles/360021436620-Marketing-activity-Send-an-automated-email-after-a-contact-interacts-with-an-email-campaign
+      \endverb
+    \endentry
+    \entry{brevo_email_campaigns}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=e102d25de690b520bb1136f4175d4570}{%
+           family={{Brevo}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{fullhash}{e102d25de690b520bb1136f4175d4570}
+      \strng{fullhashraw}{e102d25de690b520bb1136f4175d4570}
+      \strng{bibnamehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authorbibnamehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authornamehash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authorfullhash}{e102d25de690b520bb1136f4175d4570}
+      \strng{authorfullhashraw}{e102d25de690b520bb1136f4175d4570}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Create and send an email campaign}
+      \field{urlday}{22}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://help.brevo.com/hc/en-us/articles/4413566705298-Create-and-send-an-email-campaign
+      \endverb
+      \verb{url}
+      \verb https://help.brevo.com/hc/en-us/articles/4413566705298-Create-and-send-an-email-campaign
       \endverb
     \endentry
     \entry{Sistema:2018:Ivan}{misc}{}{}
@@ -302,8 +410,8 @@
       \strng{authornamehash}{b1a1def5a04b82a913bee6308ec6e425}
       \strng{authorfullhash}{b1a1def5a04b82a913bee6308ec6e425}
       \strng{authorfullhashraw}{b1a1def5a04b82a913bee6308ec6e425}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Harvard Business Review}
@@ -341,8 +449,8 @@
       \strng{authornamehash}{335df3d0c8ae943487bc1142bfe638d0}
       \strng{authorfullhash}{335df3d0c8ae943487bc1142bfe638d0}
       \strng{authorfullhashraw}{335df3d0c8ae943487bc1142bfe638d0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -376,8 +484,8 @@
       \strng{authornamehash}{94562000719e09265f5e4a9713eb7b4b}
       \strng{authorfullhash}{94562000719e09265f5e4a9713eb7b4b}
       \strng{authorfullhashraw}{94562000719e09265f5e4a9713eb7b4b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{6}

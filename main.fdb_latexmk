@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1781198258.96226 "main.bcf" "main.bbl" "main" 1781198364.11241 0
-  "Referencias.bib" 1781197991 4620 118314c6798693209cbd95ebc26db525 ""
-  "main.bcf" 1781198363 109504 13970e5fd46575e40114f9e45690c7e5 "pdflatex"
+["biber main"] 1781370846.02372 "main.bcf" "main.bbl" "main" 1781370857.87388 0
+  "Referencias.bib" 1781370845 5569 8b9a5b57acdd4f5725f7d84fe1d5d183 ""
+  "main.bcf" 1781370857 109699 cb8f0ee6da2f36488392f39cf8fed2e0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1781198357.43373 "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" "main.pdf" "main" 1781198364.11307 0
+["pdflatex"] 1781370854.82926 "c:/Users/blili/OneDrive/Desktop/Tesina2026/tesina-tsu-mayago-2026-liligb18/main.tex" "main.pdf" "main" 1781370857.87523 0
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779499196 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1779499212 31952 b9be7f7aeb647b3d82ec79495c600f0b ""
   "C:/Users/blili/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1779499211 40136 0a34d47e39065bdd665a6a2ac6e1108f ""
@@ -263,13 +263,13 @@
   "documentosDigitalizados/CartaPresentacion.pdf" 1779488939 46612 771abe882bc1981f6482ed01c9fb13cc ""
   "documentosDigitalizados/SeguroFacultativo.pdf" 1779488939 14172 eb2e389a4a7b36ff0229f5663e919060 ""
   "img/calorias1.png" 1779488939 229544 fe0b6ef40aaef5913bfb01b26cfb2d48 ""
-  "introduccion.tex" 1781195423 32085 24091e8b945f4d1b842b8eb8dc63a984 ""
-  "main.aux" 1781198363 8163 1170a0efa45b4ab9068c2f705bd74ce1 "pdflatex"
-  "main.bbl" 1781198260 18176 7e020f3cbe4a2d6a44c9eba6b001f0d3 "biber main"
-  "main.out" 1781198363 4556 9b4ac0b63c2f9e0b38ad3d80b67f9a2e "pdflatex"
-  "main.run.xml" 1781198363 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
+  "introduccion.tex" 1781370727 33521 11e334a464285d5afac4100cf76d44ac ""
+  "main.aux" 1781370857 8330 b6080a31cf12c44a34465000cf7b9172 "pdflatex"
+  "main.bbl" 1781370848 22976 d0e19b323360f597f8698eb34a51c552 "biber main"
+  "main.out" 1781370857 4241 0845fc5d105693f4099093a8737545cb "pdflatex"
+  "main.run.xml" 1781370857 2306 628e0087c61ee8036d936d14edcd02fc "pdflatex"
   "main.tex" 1781198353 14884 edd639a37c6bcb1c355b969df105dfb0 ""
-  "main.toc" 1781198363 2482 e2f7c79e36686f23627800d41441b04c "pdflatex"
+  "main.toc" 1781370857 2254 987296c00dbc3fe3aa845a18f0bc140a "pdflatex"
   "metodologia.tex" 1779488939 4147 5c32bf02e6a8e1f03c41edcfecebc1da ""
   "resultados.tex" 1779488939 1095 db5af9c18ffdb5d2bd76b6af6b9ea184 ""
   (generated)

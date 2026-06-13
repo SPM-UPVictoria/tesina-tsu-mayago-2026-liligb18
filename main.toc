@@ -9,24 +9,21 @@
 \contentsline {section}{\numberline {4}Antecedentes}{5}{section.4}%
 \contentsline {section}{\numberline {5}Antecedentes de la empresa}{6}{section.5}%
 \contentsline {section}{\numberline {6}Antecedentes teóricos}{7}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Email marketing}{7}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Segmentación de contactos}{7}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Funnels de conversión}{7}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Automatización de marketing}{8}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Formularios digitales}{8}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Shopify}{8}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Brevo}{9}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}Integración mediante iframe}{9}{subsection.6.8}%
-\contentsline {subsection}{\numberline {6.9}Plantillas HTML/CSS para correo electrónico}{9}{subsection.6.9}%
-\contentsline {subsection}{\numberline {6.10}Métricas de email marketing}{9}{subsection.6.10}%
-\contentsline {section}{\numberline {7}Tabla comparativa}{9}{section.7}%
+\contentsline {subsection}{\numberline {6.1}Marketing digital}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Email marketing}{7}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Segmentación de audiencias}{8}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Funnels de conversión}{8}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Automatización de marketing}{9}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Comunicación digital en organizaciones sin fines de lucro}{9}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Métricas de email marketing}{9}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Tabla comparativa}{10}{section.7}%
 \contentsline {section}{\numberline {8}Justificación}{11}{section.8}%
-\contentsline {section}{\numberline {9}Alcances y limitaciones}{12}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Alcances}{12}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Limitaciones}{13}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Temas tentativos para el marco teórico}{14}{section.10}%
-\contentsline {section}{\numberline {11}Metodología}{16}{section.11}%
-\contentsline {section}{\numberline {12}Resultados}{19}{section.12}%
-\contentsline {section}{\numberline {13}Conclusiones}{20}{section.13}%
-\contentsline {section}{Bibliografía}{21}{section.13}%
-\contentsline {section}{Anexos}{22}{section.13}%
+\contentsline {section}{\numberline {9}Alcances y limitaciones}{13}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Alcances}{13}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Limitaciones}{14}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Temas tentativos para el marco teórico}{15}{section.10}%
+\contentsline {section}{\numberline {11}Metodología}{17}{section.11}%
+\contentsline {section}{\numberline {12}Resultados}{20}{section.12}%
+\contentsline {section}{\numberline {13}Conclusiones}{21}{section.13}%
+\contentsline {section}{Bibliografía}{22}{section.13}%
+\contentsline {section}{Anexos}{24}{section.13}%
